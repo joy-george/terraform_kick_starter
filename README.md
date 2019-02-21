@@ -39,12 +39,14 @@ The ELB security group will have the following rules:
 The Instance security group will have the following rules:
 
 **Inbound**
+
 |Type |Protocol|Port Range|Source       |
 |-----|--------|----------|-------------|
 |HTTP |TCP     |8080      |`<ELB SG ID>`|
 
 
 **Outbound**
+
 |Type       |Protocol|Port Range|Destination|
 |-----------|--------|----------|-----------|
 |All Traffic|All     |All       |0.0.0.0/0  |
