@@ -1,0 +1,17 @@
+compute_vpc_id = "vpc-id"
+
+compute_subnets = ["subnet-id-1","subnet-id-2"]
+
+elb_access_log_config = {
+  bucket = "s3-bucket"
+  bucket_prefix = "object-prefix"
+  interval = "interval in minutes"
+}
+
+elb_listener_config = {
+  lb_port = "elb incoming port"
+  lb_protocol = "incoming protocol"
+  instance_port = "instance port"
+  instance_protocol = "instance protocal"
+  ssl_certificate_id = "ssl certificate arn"
+}
